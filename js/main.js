@@ -1,44 +1,26 @@
-var fruits = ['Blueberries', 'Grapes', 'Red Currant'];
-console.log(fruits[0]);
-
 var blueberries = {
     family: 'Vaccinium corymbosum',
     growsShrub: true,
     energy: 240 kJ,
-    carbohydrates: 14.49 g,
+    carbohydrates: "14.49 g",
     protein: 0.74 g
 };
-
-var fruits = ['Blueberries', 'Grapes', 'Red Currant'];
-console.log(fruits[1]);
 
 var grapes = {
     family: 'Vitis vinifera',
     growsShrub: false,
     energy: 288 kJ,
-    carbohydrates: 18.1 g,
+    carbohydrates: "18.1 g",
     protein: 0.72 g
 };
 
-var fruits = ['Blueberries', 'Grapes', 'Red Currant'];
-console.log(fruits[2]);
-
-var red currant = {
-    family: 'Vaccinium corymbosum',
+var redCurrant = {
+    family: 'Ribes rubrum',
     growsShrub: true,
-    energy: 240 kJ,
-    carbohydrates: 14.49 g,
-    protein: 0.74 g
+    energy: "234 kJ",
+    carbohydrates: 13.8 g,
+    protein: 1.4 g
 };
-
-
-
-
-
-
-
-
-
 
 
 
