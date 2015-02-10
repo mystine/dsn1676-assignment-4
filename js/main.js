@@ -1,25 +1,25 @@
 var blueberries = {
     family: 'Vaccinium corymbosum',
     growsShrub: true,
-    energy: 240 kJ,
-    carbohydrates: "14.49 g",
-    protein: 0.74 g
+    energy: '240 kJ',
+    carbohydrates: '14.49 g',
+    protein: '0.74 g'
 };
 
 var grapes = {
     family: 'Vitis vinifera',
     growsShrub: false,
-    energy: 288 kJ,
-    carbohydrates: "18.1 g",
-    protein: 0.72 g
+    energy: '288 kJ',
+    carbohydrates: '18.1 g',
+    protein: '0.72 g'
 };
 
 var redCurrant = {
     family: 'Ribes rubrum',
     growsShrub: true,
-    energy: "234 kJ",
-    carbohydrates: 13.8 g,
-    protein: 1.4 g
+    energy: '234 kJ',
+    carbohydrates:'13.8 g',
+    protein: '1.4 g'
 };
 
 var fruits = [blueberries, grapes, redCurrant];
@@ -27,7 +27,7 @@ var fruits = [blueberries, grapes, redCurrant];
 fruits.forEach(function (section) {
     document.write('<dl>');
 
-    document.write('<dt>Family</dt>'>
+    document.write('<dt>Family</dt>');
     document.write('<dd>' + section.family + '</dd>');
                    
     document.write('<dt>Grows</dt>'>
