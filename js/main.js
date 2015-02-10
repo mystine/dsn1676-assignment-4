@@ -30,16 +30,16 @@ fruits.forEach(function (section) {
     document.write('<dt>Family</dt>');
     document.write('<dd>' + section.family + '</dd>');
                    
-    document.write('<dt>GrowsShrub</dt>'>
+    document.write('<dt>GrowsShrub</dt>');
     document.write('<dd>' + section.growsShrub + '</dd>');
     
-    document.write('<dt>Energy</dt>'>
+    document.write('<dt>Energy</dt>');
     document.write('<dd>' + section.energy + '</dd>');
     
-    document.write('<dt>Carbohydrate</dt>'>
-    document.write('<dd>' + section.carbohydrate + '</dd>');
+    document.write('<dt>Carbohydrate</dt>');
+    document.write('<dd>' + section.carbohydrates + '</dd>');
                    
-    document.write('<dt>Protein</dt>'>
+    document.write('<dt>Protein</dt>');
     document.write('<dd>' + section.protein + '</dd>');
     
     document.write('<dl>');                                 
