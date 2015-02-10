@@ -33,6 +33,15 @@ fruits.forEach(function (section) {
     document.write('<dt>Grows</dt>'>
     document.write('<dd>' + section.grows + '</dd>');
     
+    document.write('<dt>Energy</dt>'>
+    document.write('<dd>' + section.energy + '</dd>');
+    
+    document.write('<dt>Carbohydrate</dt>'>
+    document.write('<dd>' + section.carbohydrate + '</dd>');
+                   
+    document.write('<dt>Protein</dt>'>
+    document.write('<dd>' + section.protein + '</dd>');
+    
     document.write('<dl>');                                 
 });
 
