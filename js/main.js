@@ -48,16 +48,6 @@ fruits.forEach(function (section) {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 
 // alert("Hello");
@@ -95,5 +85,19 @@ dinos2.forEach(function (thing)  {
     document.write('<dd>' + thing.age + '</dd>');
     document.write('<dl>');
 });
+
+var writeDinos = function (allDinos) {
+    allDinos.forEach(function (thing) {
+    
+    document.write('<dl>');
+    document.write('<dt>Age</dt>')
+    document.write('<dd>' + thing.age + '</dd>');
+    document.write('<dl>');
+    });
+};
+
+writeDinos( [trex, stego] );
+writeDinos( [stego, tex] );
+
 
 */
