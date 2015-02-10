@@ -22,31 +22,28 @@ var redCurrant = {
     protein: 1.4 g
 };
 
+var fruits = [blueberries, grapes, redCurrant];
+
+fruits.forEach(function (section) {
+    document.write('<dl>');
+
+    document.write('<dt>Family</dt>'>
+                   });
 
 
 
-/* Blueberries
-Vaccinium corymbosum
-Grows on shrub: Yes
-Energy: 240 kJ
-Carbohydrates: 14.49 g
-Protein: 0.74 g
 
-Grapes
-Vitis vinifera
-Grows on shrub: No
-Energy: 288 kJ
-Carbohydrates: 18.1 g
-Protein: 0.72 g
 
-Red currant
-Ribes rubrum
-Grows on shrub: Yes
-Energy: 234 kJ
-Carbohydrates: 13.8 g
-Protein: 1.4 g
-*/
 
+
+
+
+
+
+
+
+
+/*
 
 // alert("Hello");
 
@@ -67,4 +64,21 @@ var trex = {
     age: 10000000
 };
 
-console.log(trex.age);
+var stego = {
+    weight: '2 tonnes',
+    isMeatEater: false,
+    age: 20000
+};
+
+var disnos2 = [trex, stego];
+
+// console.log(dinos2[1].age)
+
+dinos2.forEach(function (thing)  {
+    document.write('<dl>');
+    document.write('<dt>Age</dt>')
+    document.write('<dd>' + thing.age + '</dd>');
+    document.write('<dl>');
+});
+
+*/
