@@ -28,7 +28,13 @@ fruits.forEach(function (section) {
     document.write('<dl>');
 
     document.write('<dt>Family</dt>'>
-                   });
+    document.write('<dd>' + section.family + '</dd>');
+                   
+    document.write('<dt>Grows</dt>'>
+    document.write('<dd>' + section.grows + '</dd>');
+    
+    document.write('<dl>');                                 
+});
 
 
 
