@@ -2,9 +2,12 @@ dt {
     padding: 1em;
     background-color: lightgrey;
     color: white;
+    font-family: Century Gothic, sans-serif;
+    font-weight: 600;
 }
 
 dd {
-   color: green;
+    color: grey;
     padding: 1em;
+    font-family: Century Gothic, sans-serif;
 }
